@@ -1,4 +1,4 @@
-# CyberJayaHackathon
+# CyberJayaHackathon (17 August 2018)
 Learning Resources for CyberJaya Hackathon
 
 # Introduction :laughing:
