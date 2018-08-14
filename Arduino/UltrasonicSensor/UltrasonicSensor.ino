@@ -1,15 +1,23 @@
-#include "Ultrasonic.h"
-Ultrasonic ultrasonic(9,8); //trig pin 9, echo pin 8
+/*
+ * Posted on http://randomnerdtutorials.com
+ * created by http://playground.arduino.cc/Code/NewPing
+*/
 
-void setup()
-{
- Serial.begin(9600);
+#include <NewPing.h>
+ 
+#define TRIGGER_PIN 11
+#define ECHO_PIN 12
+#define MAX_DISTANCE 200
+ 
+NewPing sonar(TRIGGER_PIN, ECHO_PIN, MAX_DISTANCE);
+ 
+void setup() {
+   Serial.begin(9600);
 }
-
-void loop()
-{
- Serial.print(ultrasonic.Ranging(CM));
- Serial.println( "cm" );
-   
- delay(1000);
+ 
+void loop() {
+   delay(50);
+   unsigned int uS = sonar.ping_cm();
+   Serial.print(uS);
+   Serial.println('cm');
 }
