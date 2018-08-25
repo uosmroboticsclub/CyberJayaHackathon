@@ -1,5 +1,6 @@
 # CyberJayaHackathon (17 August 2018)
-Learning Resources for CyberJaya Hackathon
+https://github.com/uosmroboticsclub/CyberJayaHackathon
+Learning Resources for CyberJaya Hackathon 
 
 # Introduction :laughing:
 Hey guys Hank here! This project is for CyberJaya Hackathon! If you have any questions please ask!
